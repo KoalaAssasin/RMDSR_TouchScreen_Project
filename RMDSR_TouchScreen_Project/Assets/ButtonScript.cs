@@ -5,12 +5,13 @@ using UnityEngine.SceneManagement;
 
 public class ButtonScript : MonoBehaviour
 {
-    public float timeRemaining = 20;
+    public float startTime = 10;
+    public float timeRemaining;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        timeRemaining = startTime;
     }
 
     public void StartPlay()
@@ -36,6 +37,11 @@ public class ButtonScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (Input.GetMouseButtonDown(0))
+        {
+            timeRemaining = startTime;
+        }
+
         if (timeRemaining > 0)
         {
             timeRemaining -= Time.deltaTime;
