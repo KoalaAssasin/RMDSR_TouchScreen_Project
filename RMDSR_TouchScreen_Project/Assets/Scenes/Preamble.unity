@@ -399,8 +399,8 @@ MonoBehaviour:
     It\u2019s also the first accredited International Dark Sky Reserve in Australia
     amongst the 21 other dark sky locations in the world."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3e199765dd19b8540a8bade56801bc83, type: 2}
+  m_sharedMaterial: {fileID: -3111983565531202804, guid: 3e199765dd19b8540a8bade56801bc83, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1014,8 +1014,8 @@ MonoBehaviour:
     areas that protect animals, insects and plants that are particularly sensitive
     to light pollution.\r\n"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3e199765dd19b8540a8bade56801bc83, type: 2}
+  m_sharedMaterial: {fileID: -3111983565531202804, guid: 3e199765dd19b8540a8bade56801bc83, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1156,8 +1156,8 @@ MonoBehaviour:
     Park which has been lived in for at least 6,000 years and is a spiritual gathering
     place and a sacred site for its people.\r\n"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3e199765dd19b8540a8bade56801bc83, type: 2}
+  m_sharedMaterial: {fileID: -3111983565531202804, guid: 3e199765dd19b8540a8bade56801bc83, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
