@@ -792,7 +792,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 620c7f87c00711449ae192d349dbcca6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startTime: 10
+  startTime: 180
   timeRemaining: 0
 --- !u!4 &1087768109
 Transform:
