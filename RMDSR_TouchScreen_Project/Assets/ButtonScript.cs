@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class ButtonScript : MonoBehaviour
 {
-    public float startTime = 10;
+    public float startTime = 180;
     public float timeRemaining;
 
     // Start is called before the first frame update
@@ -17,6 +17,16 @@ public class ButtonScript : MonoBehaviour
     public void StartPlay()
     {
         SceneManager.LoadScene("SampleScene");
+    }
+
+    public void AckPlay()
+    {
+        SceneManager.LoadScene("Acknowledges");
+    }
+
+    public void PreamblePlay()
+    {
+        SceneManager.LoadScene("Preamble");
     }
 
     public void IntroPlay()
