@@ -1,10 +1,12 @@
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class OpacityController : MonoBehaviour
 {
     public Slider opacitySlider;
     public GameObject targetObject;
+    public TMP_Text lightValue;
 
     // Start is called before the first frame update
     void Start()
@@ -33,6 +35,7 @@ public class OpacityController : MonoBehaviour
             Color objectColor = targetObject.GetComponent<Renderer>().material.color;
             objectColor.a = value;
             targetObject.GetComponent<Renderer>().material.color = objectColor;
+            lightValue.text = (value * 22).ToString("F2");
         }
     }
 }
