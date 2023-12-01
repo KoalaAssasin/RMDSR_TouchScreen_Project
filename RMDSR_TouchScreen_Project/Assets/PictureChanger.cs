@@ -1,18 +1,29 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
+using System.Globalization;
 
 public class PictureChanger : MonoBehaviour
 {
     private SpriteRenderer spriteRenderer;
-    public string[] CityNames = new string[] { "brisbane", "adelaide", "canberra", "darwin", "hobart", "melbourne", "perth", "sydney" };
-    int cityNum = 0;
+    public string[] CityNames = new string[] { "Brisbane", "Adelaide", "Canberaa", "Darwin", "Hobart", "Melbourne", "Perth", "Sydney" };
+    public TMP_Text CityName;
+    int cityNum = 4;
+    OpacityController opacityController;
+
 
 
     void Start()
     {
         // Assuming your GameObject has a SpriteRenderer component
         spriteRenderer = GetComponent<SpriteRenderer>();
+
+        opacityController = FindObjectOfType<OpacityController>();
+
+        TextInfo textInfo = new CultureInfo("en-US", false).TextInfo;
+        string formattedCityName = textInfo.ToTitleCase(CityNames[cityNum].ToLower());
+        CityName.text = formattedCityName;
     }
 
     void Update()
@@ -23,6 +34,11 @@ public class PictureChanger : MonoBehaviour
             //testing
             cityNum++;
             ImageChange(cityNum);
+            opacityController.CityValueChanger(cityNum);
+
+            TextInfo textInfo = new CultureInfo("en-US", false).TextInfo;
+            string formattedCityName = textInfo.ToTitleCase(CityNames[cityNum].ToLower());
+            CityName.text = formattedCityName;
 
         }
     }
@@ -36,6 +52,11 @@ public class PictureChanger : MonoBehaviour
         }
 
         ImageChange(cityNum);
+        opacityController.CityValueChanger(cityNum);
+
+        TextInfo textInfo = new CultureInfo("en-US", false).TextInfo;
+        string formattedCityName = textInfo.ToTitleCase(CityNames[cityNum].ToLower());
+        CityName.text = formattedCityName;
 
     }
 
@@ -48,6 +69,11 @@ public class PictureChanger : MonoBehaviour
         }
 
         ImageChange(cityNum);
+        opacityController.CityValueChanger(cityNum);
+
+        TextInfo textInfo = new CultureInfo("en-US", false).TextInfo;
+        string formattedCityName = textInfo.ToTitleCase(CityNames[cityNum].ToLower());
+        CityName.text = formattedCityName;
 
     }
 

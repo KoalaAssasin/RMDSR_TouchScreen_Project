@@ -552,7 +552,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 9db0cc68500e3ef4da67c65ae0d18920, type: 3}
+  m_Sprite: {fileID: 21300000, guid: df100408b21e8874387788171c852363, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -571,8 +571,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 717956451}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.0274, y: -0.4405, z: 0}
-  m_LocalScale: {x: 0.9620776, y: 0.9367, z: 1}
+  m_LocalPosition: {x: 0.2025, y: -0.4013, z: 0}
+  m_LocalScale: {x: 1.0623261, y: 1.0257802, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -760,10 +760,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1100, y: 920}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -979,7 +979,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 620c7f87c00711449ae192d349dbcca6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startTime: 180
+  startTime: 120
   timeRemaining: 0
 --- !u!4 &1977826229
 Transform:
