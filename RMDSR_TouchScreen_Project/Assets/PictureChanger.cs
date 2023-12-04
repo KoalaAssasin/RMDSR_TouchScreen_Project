@@ -12,6 +12,17 @@ public class PictureChanger : MonoBehaviour
     int cityNum = 4;
     OpacityController opacityController;
 
+    public string[] Fact = new string[] {
+        "The RMIDSR is about 29 times darker than the Brisbane City night sky!",
+        "The RMIDSR is about 23 times darker than the Adelaide city night sky!",
+        "The RMIDSR is about 11 times darker than the Canberra City night sky!",
+        "The RMIDSR is about 9 times darker than the Darwin City night sky!",
+        "The RMIDSR is about 13 times darker than the Hobart City night sky!",
+        "The RMIDSR is about 49 times darker than the Melbourne City night sky!",
+        "The RMIDSR is about 37 times darker than the Perth City night sky!",
+        "The RMIDSR is about 40 times darker than the Sydney City night sky!" };
+    public TMP_Text FactWords;
+
 
 
     void Start()
@@ -40,6 +51,11 @@ public class PictureChanger : MonoBehaviour
             string formattedCityName = textInfo.ToTitleCase(CityNames[cityNum].ToLower());
             CityName.text = formattedCityName;
 
+
+            TextInfo textInfo2 = new CultureInfo("en-US", false).TextInfo;
+            string formattedFact = textInfo2.ToTitleCase(Fact[cityNum].ToLower());
+            FactWords.text = formattedFact;
+
         }
     }
 
@@ -58,6 +74,10 @@ public class PictureChanger : MonoBehaviour
         string formattedCityName = textInfo.ToTitleCase(CityNames[cityNum].ToLower());
         CityName.text = formattedCityName;
 
+        TextInfo textInfo2 = new CultureInfo("en-US", false).TextInfo;
+        string formattedFact = textInfo2.ToTitleCase(Fact[cityNum].ToLower());
+        FactWords.text = formattedFact;
+
     }
 
     public void LastCity()
@@ -74,6 +94,10 @@ public class PictureChanger : MonoBehaviour
         TextInfo textInfo = new CultureInfo("en-US", false).TextInfo;
         string formattedCityName = textInfo.ToTitleCase(CityNames[cityNum].ToLower());
         CityName.text = formattedCityName;
+
+        TextInfo textInfo2 = new CultureInfo("en-US", false).TextInfo;
+        string formattedFact = textInfo2.ToTitleCase(Fact[cityNum].ToLower());
+        FactWords.text = formattedFact;
 
     }
 
