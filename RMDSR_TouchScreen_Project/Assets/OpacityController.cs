@@ -7,8 +7,8 @@ public class OpacityController : MonoBehaviour
     public Slider opacitySlider;
     public GameObject targetObject;
     public TMP_Text lightValue;
-    public float[] CityValues = new float[] {18.32f, 18.56f, 19.34f, 19.55f, 19.18f, 17.75f, 18.04f, 17.96f};
-    // above uses the city values in the order of: "brisbane", "adelaide", "canberra", "darwin", "hobart", "melbourne", "perth", "sydney" 
+    public float[] CityValues = new float[] {18.32f, 18.56f, 19.34f, 19.55f, 19.18f, 17.75f, 18.04f, 17.96f, 17.45f, 17.89f, 18.13f, 17.77f, 17.44f, 17.42f, 17.64f, 16.85f, 18.10f, 18.27f, 17.61f, 18.17f};
+    // above uses the city values in the order of: "brisbane", "adelaide", "canberra", "darwin", "hobart", "melbourne", "perth", "sydney",  "Tokyo", "Beijing", "Auckland", "New Dehli", "London", "Singapore", "Seoul", "Washington DC", "Ottowa", "Jakarta", "Kuala Lumpur", "Berlin" 
 
     public float CityValue;
 

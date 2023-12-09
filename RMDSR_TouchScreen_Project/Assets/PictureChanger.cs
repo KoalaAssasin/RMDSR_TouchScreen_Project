@@ -7,7 +7,7 @@ using System.Globalization;
 public class PictureChanger : MonoBehaviour
 {
     private SpriteRenderer spriteRenderer;
-    public string[] CityNames = new string[] { "Brisbane", "Adelaide", "Canberaa", "Darwin", "Hobart", "Melbourne", "Perth", "Sydney" };
+    public string[] CityNames = new string[] { "Brisbane", "Adelaide", "Canberaa", "Darwin", "Hobart", "Melbourne", "Perth", "Sydney", "Tokyo", "Beijing", "Auckland", "New Delhi", "London", "Singapore", "Seoul", "Washington DC", "Ottawa", "Jakarta", "Kuala Lumpur", "Berlin"  };
     public TMP_Text CityName;
     int cityNum = 4;
     OpacityController opacityController;
@@ -20,7 +20,19 @@ public class PictureChanger : MonoBehaviour
         "The RMIDSR is about 13 times darker than the Hobart City night sky!",
         "The RMIDSR is about 49 times darker than the Melbourne City night sky!",
         "The RMIDSR is about 37 times darker than the Perth City night sky!",
-        "The RMIDSR is about 40 times darker than the Sydney City night sky!" };
+        "The RMIDSR is about 40 times darker than the Sydney City night sky!",
+        "The RMIDSR is about 64 times darker than the Tokyo City night sky!",
+        "The RMIDSR is about 43 times darker than the Beijing City night sky!",
+        "The RMIDSR is about 34  times darker than the Auckland City night sky!",
+        "The RMIDSR is about 49 times darker than the New Dehli City night sky!",
+        "The RMIDSR is about 65 times darker than the London City night sky!",
+        "The RMIDSR is about 66 times darker than the Singapore City night sky!",
+        "The RMIDSR is about 54 times darker than the Seoul City night sky!",
+        "The RMIDSR is about 112 times darker than the Washington DC City night sky!",
+        "The RMIDSR is about 35 times darker than the Ottawa City night sky!",
+        "The RMIDSR is about 30 times darker than the Jakarta City night sky!",
+        "The RMIDSR is about 55 times darker than the Kuala Lumpur City night sky!",
+        "The RMIDSR is about 33 times darker than the Berlin City night sky!"};
     public TMP_Text FactWords;
 
 
@@ -62,7 +74,7 @@ public class PictureChanger : MonoBehaviour
     public void NextCity()
     {
         cityNum++;
-        if (cityNum > 7)
+        if (cityNum > 19)
         {
             cityNum = 0;
         }
@@ -85,7 +97,7 @@ public class PictureChanger : MonoBehaviour
         cityNum--;
         if (cityNum < 0)
         {
-            cityNum = 7;
+            cityNum = 19;
         }
 
         ImageChange(cityNum);

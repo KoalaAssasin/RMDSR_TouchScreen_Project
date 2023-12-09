@@ -151,7 +151,7 @@ RectTransform:
   m_GameObject: {fileID: 124061069}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.88508, y: 0.88508, z: 0.88508}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1049105751}
@@ -161,7 +161,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -346, y: 30}
+  m_AnchoredPosition: {x: -242, y: 19}
   m_SizeDelta: {x: 315.0483, y: 108.5878}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &124061071
@@ -552,7 +552,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: LEARN ABOUT
+  m_text: LEARN ABOUT <alpha=#00>      n
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3e199765dd19b8540a8bade56801bc83, type: 2}
   m_sharedMaterial: {fileID: -3111983565531202804, guid: 3e199765dd19b8540a8bade56801bc83, type: 2}
@@ -845,7 +845,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -26.500004}
+  m_AnchoredPosition: {x: -72, y: -26.500004}
   m_SizeDelta: {x: 0, y: -53}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1180792335
@@ -1003,7 +1003,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: NIGHT SKIES
+  m_text: '       NIGHT SKIES'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8090cb047cac1d34abe35f32d34dfa77, type: 2}
   m_sharedMaterial: {fileID: -4097314487027018874, guid: 8090cb047cac1d34abe35f32d34dfa77, type: 2}
@@ -1108,7 +1108,7 @@ RectTransform:
   m_GameObject: {fileID: 1537789682}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.88508, y: 0.88508, z: 0.88508}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2114004563}
@@ -1118,8 +1118,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 292.2349, y: 126}
-  m_SizeDelta: {x: 219.3878, y: 97.5536}
+  m_AnchoredPosition: {x: 224.10223, y: 99}
+  m_SizeDelta: {x: 284.2583, y: 97.5536}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1537789684
 MonoBehaviour:
@@ -1346,7 +1346,7 @@ RectTransform:
   m_GameObject: {fileID: 1874678134}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.88508, y: 0.88508, z: 0.88508}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1837796301}
@@ -1354,7 +1354,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000015259, y: 15.000004}
+  m_AnchoredPosition: {x: -5.8377, y: 0.7600031}
   m_SizeDelta: {x: 616.77, y: 618.68}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1874678136
@@ -1423,7 +1423,7 @@ RectTransform:
   m_GameObject: {fileID: 1932420661}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.88508, y: 0.88508, z: 0.88508}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1056171024}
@@ -1432,8 +1432,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 27, y: -268.08}
-  m_SizeDelta: {x: 125.2763, y: 52.5139}
+  m_AnchoredPosition: {x: 19.335, y: -237}
+  m_SizeDelta: {x: 125.2763, y: 158.4443}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1932420663
 MonoBehaviour:
@@ -1564,7 +1564,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.9999542, y: -9.5}
+  m_AnchoredPosition: {x: -4, y: -9.5}
   m_SizeDelta: {x: 0, y: -19}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2114004564
@@ -1587,7 +1587,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: COMPARE
+  m_text: '        COMPARE'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3e199765dd19b8540a8bade56801bc83, type: 2}
   m_sharedMaterial: {fileID: -3111983565531202804, guid: 3e199765dd19b8540a8bade56801bc83, type: 2}

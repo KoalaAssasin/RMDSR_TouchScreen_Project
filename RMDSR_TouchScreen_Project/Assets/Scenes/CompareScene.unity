@@ -293,7 +293,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 405, y: -146.84}
+  m_AnchoredPosition: {x: 399.74, y: -204.02}
   m_SizeDelta: {x: 172.463, y: 58.94}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &19138460
@@ -838,6 +838,18 @@ MonoBehaviour:
   - 17.75
   - 18.04
   - 17.96
+  - 17.45
+  - 17.89
+  - 18.13
+  - 17.77
+  - 17.44
+  - 17.42
+  - 17.64
+  - 16.85
+  - 18.1
+  - 18.27
+  - 17.61
+  - 18.17
   CityValue: 0
 --- !u!4 &510357326
 Transform:
@@ -1098,7 +1110,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -474.99622, y: -146.83772}
+  m_AnchoredPosition: {x: -452.99622, y: -202.81493}
   m_SizeDelta: {x: 28.2992, y: 117.9746}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &642665744
@@ -1237,14 +1249,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CityNames:
-  - brisbane
-  - adelaide
-  - canberra
-  - darwin
-  - hobart
-  - melbourne
-  - perth
-  - sydney
+  - Brisbane
+  - Adelaide
+  - Canberra
+  - Darwin
+  - Hobart
+  - Melbourne
+  - Perth
+  - Sydney
+  - Tokyo
+  - Beijing
+  - Auckland
+  - New Delhi
+  - London
+  - Singapore
+  - Seoul
+  - Washington DC
+  - Ottawa
+  - Jakarta
+  - Kuala Lumpur
+  - Berlin
   CityName: {fileID: 1722903530}
   Fact:
   - The RMIDSR is about 29 times darker than the Brisbane City night sky!
@@ -1255,6 +1279,18 @@ MonoBehaviour:
   - The RMIDSR is about 49 times darker than the Melbourne City night sky!
   - The RMIDSR is about 37 times darker than the Perth City night sky!
   - The RMIDSR is about 40 times darker than the Sydney City night sky!
+  - The RMIDSR is about 64 times darker than the Tokyo City night sky!
+  - The RMIDSR is about 43 times darker than the Beijing City night sky!
+  - The RMIDSR is about 34  times darker than the Auckland City night sky!
+  - The RMIDSR is about 49 times darker than the New Dehli City night sky!
+  - The RMIDSR is about 65 times darker than the London City night sky!
+  - The RMIDSR is about 66 times darker than the Singapore City night sky!
+  - The RMIDSR is about 54 times darker than the Seoul City night sky!
+  - The RMIDSR is about 112 times darker than the Washington DC City night sky!
+  - The RMIDSR is about 35 times darker than the Ottawa City night sky!
+  - The RMIDSR is about 30 times darker than the Jakarta City night sky!
+  - The RMIDSR is about 55 times darker than the Kuala Lumpur City night sky!
+  - The RMIDSR is about 33 times darker than the Berlin City night sky!
   FactWords: {fileID: 773872259}
 --- !u!1 &669572828
 GameObject:
@@ -1604,7 +1640,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'The RMIDSR is about 40 times darker than the Sydney City night sky!
+  m_text: 'The RMIDSR is about 13 times darker than the Hobart City night sky!
 
 '
   m_isRightToLeft: 0
@@ -1720,7 +1756,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -475, y: -90}
+  m_AnchoredPosition: {x: -453, y: -145.9772}
   m_SizeDelta: {x: 74.0258, y: 70.335}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &849975990
@@ -2640,7 +2676,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -475, y: -204.0228}
+  m_AnchoredPosition: {x: -453, y: -260}
   m_SizeDelta: {x: 74.028, y: 70.8599}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1596330919
@@ -2906,8 +2942,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -375.61566, y: -159.53}
-  m_SizeDelta: {x: 159.6943, y: 58.94}
+  m_AnchoredPosition: {x: -358.14, y: -204.02}
+  m_SizeDelta: {x: 159.6943, y: 32.5004}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1785961357
 GameObject:
